@@ -1,0 +1,29 @@
+.logo{
+	width: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.navigation{
+	margin-top: 17.5px
+}
+.navigation-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:30px;
+}
+
+.navigation-a{
+	display: block;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: "nino_mtavruli_bold", sans-serif;
+	color: #3D58A6;
+	/*color: rgb(61,88,166);*/
+}
+.navigation-a:hover{
+	color: #EE4036;
+}

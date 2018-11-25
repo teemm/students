@@ -1,0 +1,9 @@
+@font-face{
+	font-family: "nino_mtavruli_bold";
+  	src: url('../fonts/bpgninomtavruliboldwebfont.eot');
+	src: url('../fonts/bpgninomtavruliboldwebfont.eot') format('embedded-opentype'),
+         url('../fonts/bpgninomtavruliboldwebfont.woff2') format('woff2'),
+         url('../fonts/bpgninomtavruliboldwebfont.woff') format('woff'),
+         url('../fonts/bpgninomtavruliboldwebfont.ttf') format('truetype'),
+         url('../fonts/bpgninomtavruliboldwebfont.svg#bpgninomtavruliboldwebfont') format('svg');
+}
