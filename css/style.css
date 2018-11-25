@@ -1,3 +1,4 @@
+/* ჰედეის დასაწყისი */
 .logo{
 	width: 100px;
 	margin-left: 30px;
@@ -7,10 +8,6 @@
 	margin-top: 17.5px
 }
 .navigation-ul{
-    list-style-type: none;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
     margin-left:30px;
 }
 
@@ -27,7 +24,58 @@
 .navigation-a:hover{
 	color: #EE4036;
 }
+ /* ჰედეის დასსარული */
 .banner{
 	margin-left: 30px;
 	margin-top: 22.5px;
 }
+/* footer დასაწყისი */
+.footer{
+	margin-left: 30px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fb{
+	height: 30px;
+}
+.youtube{
+	height: 30px;
+}
+.social-list{
+	display: inline-block;
+	margin-right: 35px; 
+}
+.line{
+	width: 1px;
+	height: 30px;
+	background-color: #3D58A6;
+}
+/* footer დასსრული */
+/* კონტაქტის გვერდის დასაწყისი */
+.contact-section{
+	width: 300px;
+	display: block;
+	/*margin: 0 auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.contact-list{
+	text-align: center;
+}
+.heading{
+	text-align: center;
+	font-family: "nino_mtavruli_bold";
+	font-size: 20px;
+	color: #3D58A6;
+}
+.left-side,
+.right-side{
+	font-family: "bpg_ingiri_arial";
+	font-size: 16px;
+}
+.left-side{
+	color: #808080;
+}
+/* კონტაქტის გვერდი დასასრული */
