@@ -31,6 +31,9 @@
 .navigation-a:hover{
 	color: #EE4036;
 }
+.navigation-a.active{
+	color: #EE4036;
+}
  /* ჰედეის დასსარული */
 .banner{
 	margin-left: 30px;
@@ -112,11 +115,16 @@
 	font-size: 20px;
 	margin: 30px auto 20px auto;
 }
+.article-decription img{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
 .article-decription .text{
-	display: inline-block;
-	width: calc(100% - 270px);
-	vertical-align: top;
-	padding-left: 40px;
+	/*display: inline-block;*/
+	/*width: calc(100% - 270px);*/
+	/*vertical-align: top;*/
+	/*padding-left: 40px;*/
 	padding-right: 10px;
 }
 .article-decription .text p{
