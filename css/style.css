@@ -3,6 +3,10 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+.top-items{
+	display: inline-block;
+	vertical-align: top;
+}
 /* base calsses */
 /* ჰედეის დასაწყისი */
 .header-class{
@@ -56,22 +60,21 @@
 /* footer დასსრული */
 /* კონტაქტის გვერდის დასაწყისი */
 .contact-section{
-	width: 300px;
-	display: block;
-	/*margin: 0 auto;*/
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	background-color: #E6E6E6;
+	padding: 30px 90px 30px 100px;
 }
 .contact-list{
-	text-align: center;
+	text-align: left;
 }
 .heading{
-	text-align: center;
+	text-align: left;
 	font-family: "nino_mtavruli_bold";
 	font-size: 20px;
 	color: #3D58A6;
+}
+.right-side iframe{
+	width: 770px;
+	height: 460px;
 }
 .left-side,
 .right-side{
@@ -80,6 +83,7 @@
 }
 .left-side{
 	color: #808080;
+	width: calc(100% - 770px);
 }
 /* კონტაქტის გვერდი დასასრული */
 
