@@ -1,11 +1,15 @@
+/* base calsses */
+.vertical-items{
+	display: inline-block;
+	vertical-align: middle;
+}
+/* base calsses */
 /* ჰედეის დასაწყისი */
+.header-class{
+	padding: 30px;
+}
 .logo{
 	width: 100px;
-	margin-left: 30px;
-	margin-top: 30px;
-}
-.navigation{
-	margin-top: 17.5px
 }
 .navigation-ul{
     margin-left:30px;
@@ -13,8 +17,7 @@
 
 .navigation-a{
 	display: block;
-	padding-top: 7.5px;
-	padding-bottom: 7.5px;
+	padding: 7.5px 15px;
 	text-decoration: none;
 	font-size: 22px;
 	font-family: "nino_mtavruli_bold", sans-serif;
@@ -79,3 +82,43 @@
 	color: #808080;
 }
 /* კონტაქტის გვერდი დასასრული */
+
+/* news section */
+.news-section{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.article{
+	font-family: "nino_mtavruli_bold";
+}
+
+.number{
+    background: #3D58A6;
+    display: inline-block;
+    font-size: 48px;
+    padding: 7px 7px 0px 7px;
+    color: white;
+}
+.date-block .text{
+	font-size: 22px;
+	color: #3D58A6;
+	margin-top: 10px;
+}
+.article-title{
+	font-size: 20px;
+	margin: 30px auto 20px auto;
+}
+.article-decription .text{
+	display: inline-block;
+	width: calc(100% - 270px);
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+.article-decription .text p{
+	font-size: 16px;
+	font-family: "bpg_ingiri_arial";
+	margin-bottom: 25px;
+}
+
+/* news section */
